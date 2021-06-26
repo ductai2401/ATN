@@ -116,12 +116,21 @@
     <title>Register new user</title>
 </head>
 <body>
+	<ul>
+        <li><a href="/insert">New Product</a></li>
+        <li><a href="/view">All products</a></li>
+        <li><a href="/register">Register</a></li>
+        <li><a href="/">Login</a></li>
+    </ul> 
     <form action="/doRegister" method="post">
-        <input placeholder="username" type="text" name="txtName">
+	<div class="login">
+		<input placeholder="username" type="text" name="txtName">
         <br>
         <input placeholder="password" type="password" name="txtPassword">
         <br>
         <input class="button" type="submit" value="Register">
+	</div>
+        
     </form>
 </body>
 </html>
