@@ -8,7 +8,7 @@
     "start": "nodemon app.js"
   },
   "author": "Do Duc Tai",
-  "license": "ISC",
+  "license": "Freee",
   "dependencies": {
     "express": "^4.17.1",
     "express-session": "^1.17.2",
